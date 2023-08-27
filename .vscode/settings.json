@@ -1,0 +1,14 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "python.formatting.provider": "none",
+    "diffEditor.codeLens": true,
+    "diffEditor.diffAlgorithm": "advanced",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.acceptSuggestionOnEnter": "smart",
+    "files.readonlyFromPermissions": true,
+    "mergeEditor.showDeletionMarkers": false,
+    "css.validate": false,
+    "less.format.enable": false
+}

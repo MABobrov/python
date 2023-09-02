@@ -47,8 +47,8 @@ def control_turtle(turtle):
     turtle.evolve()
     print(f"Черепаха выросла, и ее текущий размер шага теперь составляет: {turtle.step}")
 
-    target_x = int(input("Enter x coordinate of the target: "))
-    target_y = int(input("Enter y coordinate of the target: "))
+    target_x = int(input("цель по x координате: "))
+    target_y = int(input("цель по y координате: "))
     steps = turtle.count_moves(target_x, target_y)
     print(f"Черепаха находится в ({turtle.x}, {turtle.y}), ей осталось {steps} шагов до цели.")
 
